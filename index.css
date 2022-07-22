@@ -11,6 +11,9 @@ html {
 body {
   background: url(./images/foto-langit.jpg) no-repeat center center fixed;
   background-size: cover;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 @media (max-width: 480px) {
@@ -29,12 +32,6 @@ body {
   body {
     background-image: url(./images/foto-langit.jpg) no-repeat center center fixed;
   }
-}
-
-body {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
 }
 
 #main {
@@ -119,7 +116,7 @@ footer {
   font-weight: 600;
   padding: 0.5em;
   position: relative;
-  margin: 0;
+  bottom: 0;
   width: 100%;
 }
 
